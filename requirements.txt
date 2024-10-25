@@ -1,2 +1,5 @@
 streamlit
--e .
+streamlit-image-coordinates
+opencv-python
+numpy
+copy
