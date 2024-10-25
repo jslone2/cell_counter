@@ -75,6 +75,7 @@ def main_loop():
             file_bytes = np.asarray(bytearray(image_file.read()), dtype=np.uint8)
             st.session_state["image"] = cv2.imdecode(file_bytes, 1)
             count_dots(st.session_state["image"],color,rad,small)
+            st.rerun()
         show = copy.deepcopy(st.session_state["image"])
         show = draw_markers(show)
 
