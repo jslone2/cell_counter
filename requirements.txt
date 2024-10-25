@@ -2,4 +2,3 @@ streamlit
 streamlit-image-coordinates
 opencv-python
 numpy
-copy
